@@ -1,107 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Recicladora Pin Pon</title>
-    <link rel="icon" href="../img/favicon.png" />
-    <link rel="stylesheet" href="../css/style.css" />
-  </head>
 
-  <body>
-    <!-- ================== CABECERA ================= -->
-    <header id="header">
-      <figure><img src="../img/Logo.png" alt="logo" width="90x" /></figure>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recicladora Pin Pon</title>
+  <link rel="icon" href="../img/favicon.png" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- ================== CABECERA ================= -->
+  <div id="caja1">
+    <header class="container" id="header">
+      <div><img class="logo" src="../img/logo.png" alt="logo" width="90" /></div>
+
       <!-- MENÚ PRINCIPAL -->
-      <div></div>
-      <nav class="menu">
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="quienes-somos.html">Quienes Somos</a></li>
-          <li><a href="centros-de-acopio.html">Centro de Acopio</a></li>
-          <li>
-            <a href="preguntas-frecuentes.html">FAQ</a>
-          </li>
-          <li><a href="contactanos.html">Contáctanos</a></li>
-        </ul>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary menu">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="centros-de-acopio.html">Centro de Acopio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="preguntas-frecuentes.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactanos.html">Contáctanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
+  </div>
+  <!-- SLIDER -->
+  <div id="slider">
+    <img src="../img/slider/recicladora-02.jpg" alt="Slider" />
+  </div>
 
-    <!-- SLIDER -->
-    <figure id="slider">
-      <img src="../img/Slider/recicladora-02.jpg" alt="Slider" />
-    </figure>
+  <!-- ================== CUERPO ================= -->
+  <main id="main" class="container">
+    <section id="seccion1" class="container">
+      <h1>SOBRE NOSOTROS</h1>
 
-    <!-- ================== CUERPO ================= -->
-    <main id="main">
-      <section id="seccion1">
-        <h1>SOBRE NOSOTROS</h1>
+      <article>
+        <p>
+          Somos una Empresa que compra Chatarra, Fierro, Cobre, Aluminio, Bronce y todo tipo de residuos reciclables,
+          clasificados por su composición como metálicos, no metálicos, sólidos, líquidos, eléctricos y electrónicos de
+          tipo peligroso y no peligroso; provenientes de industrias, empresas, comercios, constructoras, instituciones
+          públicas, ONG e industrias en general.
+        </p>
+        <p>
+          Nuestra atención de compra de chatarra y compra de reciclaje tiene cobertura a nivel nacional; así mismo
+          nuestra empresa compra metales, maquinarias en desuso, motores en desuso, carros en desuso y chatarra en
+          general generada en su industria. Contamos con personal capacitado, balanza electrónica, transporte autorizado
+          y los registros otorgados por las autoridades competentes. De esta forma representamos la opción más acertada
+          al momento de valorizar sus residuos reciclables.
+        </p>
+      </article>
 
-        <article>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
-            voluptate, temporibus veritatis corporis delectus nulla laboriosam
-            cum dolorem enim maiores consectetur ea laudantium itaque, possimus
-            fugiat quo perspiciatis. Temporibus, qui?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eaque
-            animi officiis quidem quae magni commodi obcaecati. Blanditiis
-            repellendus fuga ad officiis dolores similique, modi veniam animi
-            quis quasi quo!
-          </p>
-        </article>
-
-        <figure>
-          <img
-            src="../img/imagen02.jpg"
-            alt="Cargador frontal llevando Cartón"
-          />
-        </figure>
-
-        <article>
-          <img src="../img/iconos/icono-reciclaje.png" alt="" />
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo ad
-            enim doloremque rerum ipsum laudantium, sit illum molestiae commodi
-            ex fugit culpa! Magni, unde. Placeat omnis iusto laudantium
-            assumenda cumque. Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Perferendis rem quidem veniam. Nisi odio
-            accusantium qui voluptates fugiat dignissimos dolorum cum ipsum
-            maiores vero dolor perferendis, voluptatibus, fugit sapiente a!
-          </p>
-          <br />
-          <img src="../img/iconos/icono-camion.png" alt="" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-            quam at obcaecati saepe accusantium quaerat sint reprehenderit
-            voluptas iure recusandae illo eum tenetur provident molestiae
-            cupiditate sit dolorem, placeat ex?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim neque
-            ad placeat ab distinctio fuga, laudantium rem voluptatem similique
-            corrupti dolorum ducimus minima modi, aut vitae vel reprehenderit,
-            eos nemo!
-          </p>
-        </article>
-      </section>
-    </main>
-    <br />
-    <!-- ================== FOOTER ================= -->
-    <footer id="footer">
       <div>
-        <img src="../img/logo.png" alt="Logo" width="90" />
-        <p>Reseña final de la empresa</p>
-        <p>Datos de la empresa</p>
+        <img src="../img/imagen02.jpg" alt="Cargador frontal llevando Cartón" />
+      </div>
+
+
+      <div class="container caja3">
+        <article class="col">
+          <img src="../img/iconos/icono-reciclaje.png" alt="" width="70" />
+          <p>
+            Recicla y llámanos.
+          </p>
+        </article>
+
+        <article class="col">
+          <img src="../img/iconos/icono-camion.png" alt="" width="70" />
+          <p>
+            Juntos agendaremos día y hora para el recojo y transporte de tu material reciclado.
+          </p>
+        </article>
+      </div>
+
+    </section>
+
+  </main>
+  <br />
+  <!-- ================== FOOTER ================= -->
+  <div id="footer">
+    <footer class="container">
+      <div>
+        <img class="logo" src="../img/logo.png" alt="Logo" width="90" />
+        <p>Somos Una empresa ecoamigable</p>
+        <p>Encuentrános a nivel nacional</p>
       </div>
 
       <div>
         <p>
-          Copyright © 2021 Recicladora Pin Pon Un Muñeco Muy Guapo de Cartón -
+          Copyright © 2023 Recicladora Pin Pon Un Muñeco Muy Guapo de Cartón -
           Todos los derechos reservados.
         </p>
       </div>
     </footer>
-  </body>
+  </div>
+</body>
+
 </html>

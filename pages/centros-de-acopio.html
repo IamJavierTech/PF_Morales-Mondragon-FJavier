@@ -6,28 +6,56 @@
     <title>Recicladora Pin Pon</title>
     <link rel="icon" href="../img/favicon.png" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
   </head>
 
   <body>
     <!-- ================== CABECERA ================= -->
-    <header id="header">
-      <figure><img src="../img/logo.png" alt="logo" width="90" /></figure>
-      <!-- MENÚ PRINCIPAL -->
-      <div></div>
-      <nav class="menu">
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="quienes-somos.html">Quienes Somos</a></li>
-          <li><a href="centros-de-acopio.html">Centro de Acopio</a></li>
-          <li>
-            <a href="preguntas-frecuentes.html">FAQ</a>
-          </li>
-          <li><a href="contactanos.html">Contáctanos</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div id="caja1">
+      <header class="container" id="header">
+        <div><img class="logo" src="../img/logo.png" alt="logo" width="90" /></div>
+    
+        <!-- MENÚ PRINCIPAL -->
+    
+        <nav class="navbar navbar-expand-lg bg-body-tertiary menu">
+          <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="centros-de-acopio.html">Centro de Acopio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="preguntas-frecuentes.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactanos.html">Contáctanos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+  </div>
+
       <!-- SLIDER -->
-      <figure id=slider><img src="../img/slider/recicladora-03.jpg" alt="Slider" /></figure>
+  <div id="slider">
+    <img src="../img/slider/recicladora-03.jpg" alt="Slider" />
+  </div>
 
     <!-- ================== CUERPO ================= -->
 
@@ -58,16 +86,21 @@
     </main>
 
     <!-- ================== FOOTER ================= -->
-    <footer id="footer">
-      <div>
-        <img src="../img/logo.png" alt="Logo" width="80px" />
-        <p>Reseña final de la empresa</p>
-        <p>Datos de la empresa</p>
-      </div>
-      <p>
-        Copyright © 2021 Recicladora Pin Pon Un Muñeco Muy Guapo de Cartón -
-        Todos los derechos reservados.
-      </p>
-    </footer>
+    <div id="footer">
+      <footer class="container">
+        <div>
+          <img class="logo" src="../img/logo.png" alt="Logo" width="90" />
+          <p>Somos Una empresa ecoamigable</p>
+          <p>Encuentrános a nivel nacional</p>
+        </div>
+    
+        <div>
+          <p>
+            Copyright © 2023 Recicladora Pin Pon Un Muñeco Muy Guapo de Cartón -
+            Todos los derechos reservados.
+          </p>
+        </div>
+      </footer>
+  </div>
   </body>
 </html>

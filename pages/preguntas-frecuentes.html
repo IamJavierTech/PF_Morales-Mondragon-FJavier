@@ -1,84 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Recicladora Pin Pon</title>
-    <link rel="icon" href="../img/favicon.png" />
-    <link rel="stylesheet" href="../css/style.css" />
-  </head>
 
-  <body>
-    <!-- ================== CABECERA ================= -->
-    <header id="header">
-      <figure><img src="../img/Logo.png" alt="logo" width="90px" /></figure>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recicladora Pin Pon</title>
+  <link rel="icon" href="../img/favicon.png" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- ================== CABECERA ================= -->
+  <div id="caja1">
+    <header class="container" id="header">
+      <div><img class="logo" src="../img/logo.png" alt="logo" width="90" /></div>
+
       <!-- MENÚ PRINCIPAL -->
-      <div></div>
-      <nav class="menu">
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="quienes-somos.html">Quienes Somos</a></li>
-          <li><a href="centros-de-acopio.html">Centro de Acopio</a></li>
-          <li>
-            <a href="preguntas-frecuentes.html">FAQ</a>
-          </li>
-          <li><a href="contactanos.html">Contáctanos</a></li>
-        </ul>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary menu">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="centros-de-acopio.html">Centro de Acopio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="preguntas-frecuentes.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactanos.html">Contáctanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
+  </div>
 
-    <!-- ================== CUERPO ================= -->
-    <main id="main">
-      <section>
-        <ol>
-          <li>
-            <p>Pregunta 1</p>
-            <p>Respuesta</p>
-          </li>
-          <li>
-            <p>Pregunta 2</p>
-            <p>Respuesta</p>
-          </li>
-          <li>
-            <p>Pregunta 3</p>
-            <p>Respuesta</p>
-          </li>
-          <li>
-            <p>Pregunta 4</p>
-            <p>Respuesta</p>
-          </li>
-          <br />
-          <li>
-            <p>Pregunta 5</p>
-            <p>Respuesta</p>
-          </li>
-          <li>
-            <p>Pregunta 6</p>
-            <p>Respuesta</p>
-          </li>
-          <li>
-            <p>Pregunta 7</p>
-            <p>Respuesta</p>
-          </li>
-          <li>
-            <p>Pregunta 8</p>
-            <p>Respuesta</p>
-          </li>
-        </ol>
-      </section>
-    </main>
+  <!-- ================== CUERPO ================= -->
+  <main id="main" class="container">
+    <section class="faq">
+      <h1>PREGUNTAS FRECUENTES</h1>
+      <ol class="marco1">
+        <li class="col-3 marco2">
+          <p>¿Con qué colores se identifican los diferentes tipos de residuos sólidos?</p>
+          <p>En general los contenedores para cada tipo de residuos suelen ser:
+          <ul>
+            <li>Amarillo - Envases.</li>
+            <li>Verde - Vidrio.</li>
+            <li>Azul - Papel y cartón.</li>
+            <li>Naranja - Materia orgánica. Este último color puede variar en diferentes zonas.</li>
+          </ul>
+          </p>
+        </li>
 
-    <!-- ================== FOOTER ================= -->
-    <footer id="footer">
+        <li class="col-3 marco2">
+          <p>¿Puedo tirar las pilas a la basura?</p>
+          <p>Nunca, las pilas son un residuo muy contaminante. Basta saber que una sola pila puede contaminar con mercurio una hectárea de tierra.
+            Debemos buscar los pequeños contenedores para pilas que suele haber adosados a los contenedores de vidrio o los que existen en las tiendas de venta de pilas o las Instituciones Oficiales.</p>
+        </li>
+
+        <li class="col-3 marco2">
+          <p>¿Qué tipo de cartones y papeles puedo echar al contenedor?</p>
+          <p>Se aceptan todo tipo de papeles y cartones, excepto los que tienen otros componentes asociados, como plásticos o metales.</p>
+        </li>
+
+        <li class="col-3">
+          <p>¿Puedo echar al contenedor de vidrio los cristales rotos?</p>
+          <p>No, el contenedor de vidrio es para vidrio de botellas y frascos, el cristal lleva otro proceso de fabricación y, por tanto, de reciclaje.</p>
+        </li>
+
+        <li class="col-3 marco2">
+          <p>¿Qué tengo que echar en el contenedor amarillo?</p>
+          <p>En este contenedor debemos depositar todos los envases, o sus restos, compuestos por plástico, metal y "Brick", así como los elementos de embalajes de los materiales antes mencionados. Nunca echaremos cartón o vidrio, ya que existen contenedores específicos para ellos.</p>
+        </li>
+
+        <li class="col-3 marco2">
+          <p>¿Las basuras que se echan a las papeleras, se reciclan?</p>
+          <p>Solamente se reciclan aquellos residuos que se depositan bien separados en cada uno de los contenedores. Por esto, es mejor que tiremos a las papeleras los menos residuos posibles.</p>
+        </li>
+      </ol>
+    </section>
+  </main>
+
+  <!-- ================== FOOTER ================= -->
+  <div id="footer">
+    <footer class="container">
       <div>
-        <img src="../img/logo.png" alt="Logo" width="80px" />
-        <p>Reseña final de la empresa</p>
-        <p>Datos de la empresa</p>
+        <img class="logo" src="../img/logo.png" alt="Logo" width="90" />
+        <p>Somos Una empresa ecoamigable</p>
+        <p>Encuentrános a nivel nacional</p>
       </div>
-      <p>
-        Copyright © 2021 Recicladora Pin Pon Un Muñeco Muy Guapo de Cartón -
-        Todos los derechos reservados.
-      </p>
+
+      <div>
+        <p>
+          Copyright © 2023 Recicladora Pin Pon Un Muñeco Muy Guapo de Cartón -
+          Todos los derechos reservados.
+        </p>
+      </div>
     </footer>
-  </body>
+  </div>
+</body>
+
 </html>
